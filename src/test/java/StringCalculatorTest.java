@@ -68,6 +68,6 @@ public class StringCalculatorTest {
 
     @Test
     public void testStringOfFiveSeperator() {
-        assertThat(calculator.add("//5\n1510516"), is(27));
+        assertThat(calculator.add("//5\n1510516"), is(26));
     }
 }
